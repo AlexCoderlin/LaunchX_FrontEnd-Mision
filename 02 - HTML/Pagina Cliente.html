@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Gramblet</title>
+</head>
+<body>
+    <img src="Logo.PNG" alt="Logo Pasteleria Gramblet"><br>
+    <h1>Pasteleria Gramblet</h1><br>
+
+
+    <h2>Creador de pastel:</h2>
+    <form action="/accion.js" id="form1" method="post"> 
+        <h3>Seleccione Sabor</h3>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate">
+        <label for="topping1">Chocolate [$120]</label><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="3 Leches">
+        <label for="topping2">3 Leches [$110]</label><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Cajeta">
+        <label for="topping3">Cajeta [$180]</label><br><br>
+
+        <h3>Seleccione Adornos</h3>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Letrero">
+        <label for="topping1">Letrero [$30]</label><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Listones">
+        <label for="topping2">Listones [$80]</label><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Caja VIP">
+        <label for="topping3">Caja VIP [$70]</label><br><br>
+
+        <label for="descripcion">Ingresa la descripcion de tu pastel aqui:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="3" cols="50">
+        </textarea>
+        <br><br>
+
+        <h3>Datos de Cliente:</h3>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="telefono">Correo Electronico</label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="correo">Correo Electronico</label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
