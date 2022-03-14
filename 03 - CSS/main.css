@@ -1,0 +1,41 @@
+/*
+ Theme Name: Vaccination
+ Description: layout project with css
+ Author: Alejandro Gonzalez Colin
+ Author URL:  https://github.com/AlexCoderlin
+ Tags: CSS project , LaunchX
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: lightgreen;
+}
+
+main {
+    background-color: lightcoral;
+}
+
+footer {
+    background-color: #eef3ff;
+
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*
+display: grid;
+    grid-template-rows: 1fr  1fr;
+    grid-template-columns: 1fr 1fr minmax(30%, auto) repeat(3, 1fr);
+        grid-row-gap: 10px;
+        grid-gap: filas columnas; (o si son iguales solo 1 argumento)
+*/
